@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./App.css";
 import Navigation from "./Components/Navigation/Navigation";
-import Logo from "./Components/Logo/Logo";
+// import Logo from "./Components/Logo/Logo";
 import ImageLinkForm from "./Components/ImageLinkForm/ImageLinkForm";
 import Rank from "./Components/Rank/Rank";
 import FaceRecognition from "./Components/FaceRecognition/FaceRecognition";
@@ -112,7 +112,7 @@ class App extends Component {
         />
         {route === "home" ? (
           <div>
-            <Logo />
+            {/* <Logo /> */}
             <Rank
               name={this.state.user.name}
               entries={this.state.user.entries}
